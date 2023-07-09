@@ -1,7 +1,8 @@
+import { SearchParams } from "@/typing";
 import { redirect } from "next/navigation";
 
 type Props = {
-    searchParams: any;
+    searchParams: SearchParams;
     params: {
         term: string;
     }
